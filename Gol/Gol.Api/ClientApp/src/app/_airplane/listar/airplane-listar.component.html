@@ -1,0 +1,27 @@
+<h1>Airplane</h1>
+
+<p *ngIf="!airplanes"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="airplanes">
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Modelo</th>
+      <th>Qtd. Passageiros</th>
+      <th>Data Cadastro</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let airplane of airplanes">
+      <td>{{ airplane.codigo }}</td>
+      <td>{{ airplane.modelo }}</td>
+      <td>{{ airplane.quantidadePassageiros }}</td>
+      <td>{{ airplane.dataCadastro | date: 'dd/MM/yyyy hh:MM:ss'}}</td>
+      <td>
+        <button type="button" class="btn btn-secondary btn-sm" (click)="editar(airplane.id)">Editar</button> | 
+        <button type="button" class="btn btn-danger btn-sm" (click)="delete(airplane.id)">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
