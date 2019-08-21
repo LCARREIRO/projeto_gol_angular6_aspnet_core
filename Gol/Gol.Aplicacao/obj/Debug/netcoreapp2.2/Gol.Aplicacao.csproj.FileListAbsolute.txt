@@ -22,3 +22,15 @@ C:\Projetos\src\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.Assembly
 C:\Projetos\src\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.csproj.CopyComplete
 C:\Projetos\src\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.dll
 C:\Projetos\src\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\bin\Debug\netcoreapp2.2\Gol.Aplicacao.deps.json
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\bin\Debug\netcoreapp2.2\Gol.Aplicacao.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\bin\Debug\netcoreapp2.2\Gol.Aplicacao.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\bin\Debug\netcoreapp2.2\Gol.Dominio.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\bin\Debug\netcoreapp2.2\Gol.Dominio.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.csprojAssemblyReference.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.AssemblyInfo.cs
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.csproj.CopyComplete
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Aplicacao\obj\Debug\netcoreapp2.2\Gol.Aplicacao.pdb

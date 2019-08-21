@@ -22,3 +22,15 @@ C:\Projetos\src\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.Assembly
 C:\Projetos\src\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.csproj.CopyComplete
 C:\Projetos\src\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.dll
 C:\Projetos\src\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\bin\Debug\netcoreapp2.2\Gol.InfraData.deps.json
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\bin\Debug\netcoreapp2.2\Gol.InfraData.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\bin\Debug\netcoreapp2.2\Gol.InfraData.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\bin\Debug\netcoreapp2.2\Gol.Dominio.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\bin\Debug\netcoreapp2.2\Gol.Dominio.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.csprojAssemblyReference.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.AssemblyInfoInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.AssemblyInfo.cs
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.csproj.CopyComplete
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.InfraData\obj\Debug\netcoreapp2.2\Gol.InfraData.pdb

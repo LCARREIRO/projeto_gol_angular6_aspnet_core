@@ -5,8 +5,9 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-airplane-cadastrar',
-  templateUrl: './airplane-cadastrar.component.html'
+  selector: 'app-airplane-cadastrar',  
+  templateUrl: './airplane-cadastrar.component.html',
+  styleUrls: ['./airplane-cadastrar.component.css']
 })
 export class AirplaneCadastrarComponent implements OnInit {
 
@@ -28,14 +29,24 @@ export class AirplaneCadastrarComponent implements OnInit {
 
   salvar() {
 
-    this.airplaneService.salvar(this.formulario.value).subscribe(
-      res => {
-        this.router.navigate([''])
-      },
-      error => {
-        console.log(error);
-      }
-    );
+    if (this.formulario.valid == false) {
+      alert('Preencha todos os campos do fomrulário');
+      return;
+    }
+
+    if (this.formulario.valid)
+
+      this.airplaneService.salvar(this.formulario.value).subscribe(
+        res => {
+          //this.router.navigate(['']),
+          if (res.success == true)
+             alert(res.message);
+        },
+        error => {
+          var obj = JSON.parse(error._body);
+          alert(obj.message);
+        }
+      );
   }
 
   formReset() {

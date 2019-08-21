@@ -1,0 +1,5 @@
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio.Core\bin\Debug\netcoreapp2.2\Gol.Dominio.Core.deps.json
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio.Core\bin\Debug\netcoreapp2.2\Gol.Dominio.Core.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio.Core\obj\Debug\netcoreapp2.2\Gol.Dominio.Core.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio.Core\obj\Debug\netcoreapp2.2\Gol.Dominio.Core.AssemblyInfoInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio.Core\obj\Debug\netcoreapp2.2\Gol.Dominio.Core.AssemblyInfo.cs

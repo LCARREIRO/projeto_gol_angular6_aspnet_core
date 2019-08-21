@@ -16,3 +16,12 @@ C:\Projetos\src\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.AssemblyInfo
 C:\Projetos\src\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.AssemblyInfo.cs
 C:\Projetos\src\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.dll
 C:\Projetos\src\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\bin\Debug\netcoreapp2.2\Gol.Dominio.deps.json
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\bin\Debug\netcoreapp2.2\Gol.Dominio.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\bin\Debug\netcoreapp2.2\Gol.Dominio.pdb
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.csprojAssemblyReference.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.AssemblyInfoInputs.cache
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.AssemblyInfo.cs
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.dll
+C:\Users\lucia\Documents\GitHub\gol\Gol\Gol.Dominio\obj\Debug\netcoreapp2.2\Gol.Dominio.pdb

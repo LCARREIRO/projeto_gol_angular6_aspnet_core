@@ -28,12 +28,12 @@ export class AirplaneService {
       .pipe(map((res: Response) => res.json()));
   }
 
-  salvar(airplane: Airplane) {
-    return this.http.post(this.BASE_URL, airplane)
-      .pipe(map((res: Response) => res.json()));
+  salvar(airplane: Airplane) {    
+    return this.http.post(this.BASE_URL, airplane)    
+      .pipe(map((res: Response) => res.json()));    
   }
 
-  atualizar(airplane: Airplane) {
+  atualizar(airplane: Airplane) {    
     return this.http.put(this.BASE_URL, airplane)
       .pipe(map((res: Response) => res.json()));
   }

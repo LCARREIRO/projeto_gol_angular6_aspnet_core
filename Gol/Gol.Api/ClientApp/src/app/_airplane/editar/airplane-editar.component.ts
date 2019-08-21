@@ -32,18 +32,18 @@ export class AirplaneEditarComponent implements OnInit {
         });
       },
       error => {
-        console.log(error);
+        console.log(error.statuText);
       });
   }
 
   salvar() {
 
     this.airplaneService.atualizar(this.formulario.value).subscribe (
-      res => {
+      res => {        
         this.router.navigate(['']);
       },
       error => {
-        console.log(error);
+        console.log(error.statuText);
       }
     );
   }

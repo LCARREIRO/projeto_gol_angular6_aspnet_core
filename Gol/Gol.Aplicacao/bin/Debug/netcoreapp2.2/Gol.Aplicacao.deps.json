@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "98d061cff9d7a30293f748185e6283dc0fbba416"
+    "signature": "703822e4f611d4923c6d69cfc0459ca606e61f49"
   },
   "compilationOptions": {},
   "targets": {
@@ -36,6 +36,14 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Flunt/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
           }
         }
       },
@@ -96,7 +104,7 @@
       },
       "Gol.Dominio/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.1.0"
+          "Flunt": "1.0.4"
         },
         "runtime": {
           "Gol.Dominio.dll": {}
@@ -123,6 +131,13 @@
       "sha512": "sha512-KjuQqNFqE0GXCaV10GBlqE5thqgMz0hgzcLidCRBq+nEo9KiFspsRWOsRrk4sQKM3UQqOYRIKfFFO3XBnUo4Yg==",
       "path": "automapper.extensions.microsoft.dependencyinjection/6.1.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512"
+    },
+    "Flunt/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zvhghcpo5H+jnofxYpqCSs3zDnOg1/KkuY/Q4cSw+IEoWLqoq/sdso6tR+QoZHKaOK2B1VG6KNqvKdGg6miIyw==",
+      "path": "flunt/1.0.4",
+      "hashPath": "flunt.1.0.4.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

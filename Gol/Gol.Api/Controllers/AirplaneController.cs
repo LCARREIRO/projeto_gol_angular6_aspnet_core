@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Gol.Api.Dto;
+using Gol.Api.Dto.RetornoMsg;
 using Gol.Aplicacao.Interfaces;
 using Gol.Dominio.Entidades;
 using Microsoft.AspNetCore.Http;
@@ -51,15 +52,22 @@ namespace Gol.Api.Controllers
         [HttpPut]
         public async Task<IActionResult> Put([FromServices] IAirplaneAppServico app, AirplaneDTO airplaneDTO)
         {
-            if (airplaneDTO == null)
-            {
-                return BadRequest();
-            }
+            airplaneDTO.Validate();
+
+            if (airplaneDTO.Invalid)
+
+                return BadRequest(new RetornoDTO()
+                {
+                    Success = false,
+                    Message = "Não foi possível editar airplane",
+                    Data = airplaneDTO.Notifications
+                });
 
             try
             {
                 app.Update(_mapper.Map <Airplane>(airplaneDTO));
             }
+
             catch (DbUpdateConcurrencyException)
             {
                 if (!app.Exists(x => x.Id == airplaneDTO.Id))
@@ -72,7 +80,12 @@ namespace Gol.Api.Controllers
                 }
             }
 
-            return Ok("Airplane atualiza com sucesso");
+            return Ok(new RetornoDTO()
+            {
+                Success = true,
+                Message = "Airplane editado com sucesso",
+                Data = airplaneDTO
+            });
         }
 
         //[ClaimsAuthorize("Airplane", "Incluir")]
@@ -80,9 +93,34 @@ namespace Gol.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<Airplane>> Post([FromServices] IAirplaneAppServico app, AirplaneDTO airplaneDTO)
         {
-            await app.InsertAsync(_mapper.Map<Airplane>(airplaneDTO));
+            airplaneDTO.Validate();
+            if (airplaneDTO.Invalid)
 
-            return CreatedAtAction("Get", new { id = airplaneDTO.Id }, airplaneDTO);
+                return BadRequest(new RetornoDTO()
+                {
+                    Success = false,
+                    Message = "Não foi possível cadastrar o airplane",
+                    Data = airplaneDTO.Notifications
+                });
+
+
+            try
+            {
+                await app.InsertAsync(_mapper.Map<Airplane>(airplaneDTO));
+
+                return Ok(new RetornoDTO()
+
+                {
+                    Success = true,
+                    Message = "Airplane cadastrado com sucesso",
+                    Data = airplaneDTO
+                });
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            
         }
 
         //[ClaimsAuthorize("Airplane", "Excluir")]

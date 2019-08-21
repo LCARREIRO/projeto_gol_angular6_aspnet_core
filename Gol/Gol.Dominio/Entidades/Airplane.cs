@@ -40,10 +40,10 @@ namespace Gol.Dominio.Entidades
                 QuantidadePassageiros = quantidadePassageiros;
         }
 
-        public void setId(int id)
-        {
-            if (id > 0)
-                Id = id;
-        }
+        //public void setId(int id)
+        //{
+        //    if (id > 0)
+        //        Id = id;
+        //}
     }
 }
