@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Gol/Gol.Api/ClientApp/src/assets/fontawesome-free-5.10.1-web/css
